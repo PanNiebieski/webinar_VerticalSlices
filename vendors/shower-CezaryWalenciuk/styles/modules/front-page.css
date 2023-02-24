@@ -1,0 +1,48 @@
+@charset "utf-8";
+
+.slide.front-page {
+    background: url(../../images/panoramatail2.png) repeat-x rgb(0, 0, 0) 0 100%;
+    background-size: 20%;
+    padding: 70px 40px 0;
+}
+
+
+
+.slide.front-page .logo {
+    width: 200px;
+    float: left;
+}
+
+.slide.front-page .details {
+    float: left;
+    width: calc(100% - 250px);
+    /* border-left: 3px solid #f7302f; */
+    padding: 0 0 10px 50px;
+    margin-top: 5px;
+}
+.slide.front-page .imag {
+    float: right;
+    width: 240px;
+    /* border-left: 3px solid #f7302f; */
+    padding: 0 0 10px 50px;
+    margin-top: 5px;
+}
+
+.slide.front-page .details h2 {
+    color: #000;
+    font-size: 26px;
+    line-height: 30px;
+    border:none;
+}
+.slide.front-page h2 {
+    color:#606aff;
+    font-weight: normal;
+    background-color: azure;
+    padding: 25px;
+    padding-bottom: 15px;
+    padding-top: 15px;
+}
+
+.bigbig {
+    font-size: 36px;;
+}

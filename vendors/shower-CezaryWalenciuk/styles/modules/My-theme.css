@@ -1,0 +1,624 @@
+@charset "utf-8";
+
+:root {
+    --border-color-js:green;
+    --border-color-css: #690;
+    --border-color-mapas: #414042;
+
+
+    --COLOR-BLUE: rgb(0, 183, 255);
+    --COLOR-green: rgb(0, 183, 255);
+   
+    --background-color-for-slides: #e6ac8d;
+    --background-color-for-slides2:#e6ac8d;
+    --background-color-for-slides3:#ffd4cf;
+    --background-color-for-slidesORGINAL:#FFE0CF;
+
+    --background-color-for-slides-ALT:#d9cfff;
+    --background-color-for-slides-ALT2:#cfffe3;
+    --background-color-for-slides-ALT3:#8dc2e6;
+    --background-color-for-slides-ALT4:#f1cfff;
+    --background-color-for-slides-ALT4:#fff8cf;
+
+    --for-slides-ALT5:#9f8de6;
+    --for-slides-ALT5-1:#26203a;
+    --for-slides-ALT5-2:hsl(313, 28%, 25%);
+    --for-slides-ALT6:#8de6b0;
+    --for-slides-ALT6-1:#1f3828;
+
+    --for-slides-ALT6-1NO:#356146;
+
+    --for-slides-ALT7-red:rgb(58, 32, 32);
+    --for-slides-ALT8-sea:rgb(32, 58, 58);
+
+}
+
+.backgroundOrginal {
+    background-color:VAR(--background-color-for-slidesORGINAL);
+}
+
+
+body {
+    font-family: 'Fira Sans', sans-serif;
+color:white;
+}
+
+.full .progress {
+    /* border-color: transparent transparent #606aff; */
+border-color: transparent transparent #FF6525;
+    
+}
+
+.titlec1 {
+    color:#ff8060;
+}
+
+.titlec2 {
+    color:#6dff60;
+}
+
+
+.titlec3 {
+    color:#da60ff;
+}
+
+.titlec4 {
+    color:#60ffea;
+}
+
+
+
+.slide.grey {
+    background-color:#E5E5E5 ;
+}
+
+.slide.cream {
+    background-color: #FFE0CF; 
+}
+
+.slide.creamGrey {
+    background-color:#bdbdbd ;
+}
+
+.slide.creamGrey.bbb {
+    background-color:#818181 ;
+}
+
+.slide.creamGrey.ggg {
+    background-color:#818181 ;
+}
+
+.slide.creamGrey.ooo {
+    background-color:#818181 ;
+}
+
+
+.slide.creamGrey.lll {
+    background-color:#818181 ;
+}
+.slide.creamGrey.kkk {
+    background-color:#818181 ;
+}
+
+
+
+.slide.black {
+    background-color:black ;
+    
+}
+
+.slide.happy {
+    background-color:#2096BE ;
+    font-weight: normal !important;
+    color: white;
+}
+
+.slide.dosblue {
+    background-color: #505363 ;
+    font-weight: normal !important;
+    color: white;
+}
+
+.slide.greenmemory {
+    background-color:#506357 ;
+    font-weight: normal !important;
+    color: white;
+}
+
+.slide.creamB {
+    background-color: var(--background-color-for-slides-ALT3);
+    font-weight: normal !important;
+    color: var(--border-color-mapas);
+}
+
+.slide.creamP {
+    background-color: var(--for-slides-ALT5);
+    font-weight: normal !important;
+    color: var(--border-color-mapas);
+}
+
+.slide.creamPP {
+    background-color: var(--for-slides-ALT5-1);
+    font-weight: normal !important;
+    color: var(--border-color-mapas);
+}
+
+.slide.visgrey {
+    background-color: #FBFBFB;
+    font-weight: normal !important;
+    color: var(--border-color-mapas);
+}
+
+.slide.creamPPP {
+    background-color: var(--for-slides-ALT5-2);
+    font-weight: normal !important;
+    color: var(--border-color-mapas);
+}
+
+.slide.creamPPPP {
+    background-color: var(--for-slides-ALT5-3);
+    font-weight: normal !important;
+    color: var(--border-color-mapas);
+}
+
+.slide.creamPPPGragient {
+    background: rgb(58,32,32);
+    background: linear-gradient(90deg, rgb(38, 32, 58) 0%,rgb(79, 47, 83) 100%);
+    font-weight: normal !important;
+    color: var(--border-color-mapas);
+    color: white;
+}
+
+.slide.creamGGGragient {
+    background: rgb(31,56,40);
+    background: linear-gradient(90deg, rgba(31,56,40,1) 0%, rgba(33,32,58,1) 100%);
+    color: white;
+}
+
+.slide.creamGGGragientReverse {
+    background: rgb(31,56,40);
+    background: linear-gradient(90deg, rgba(33,32,58,1) 0%,  rgba(31,56,40,1) 100%);
+    color: white;
+}
+
+.slide.conicG {
+
+    background: conic-gradient(at 125% 50%, #715799, #aa5262, #b18f09, #a1505f, #755a9e);
+    color: white;
+}
+
+.slide.conicG2 {
+
+    background: conic-gradient(at 125% 50%, rgb(34, 204, 96) ,rgb(74, 72, 155) , rgb(53, 133, 82), rgb(79, 47, 83) ,  rgb(74, 72, 155) );
+    color: white;
+}
+.slide.conicG3 {
+
+    background: conic-gradient(at 125% 50%, rgba(31,56,40,1) ,rgba(33,32,58,1) , rgba(31,56,40,1), rgb(79, 47, 83),  rgba(31,56,40,1) );
+    color: white;
+}
+
+.slide.creamG {
+    background-color: var(--for-slides-ALT6);
+    font-weight: normal !important;
+    color: var(--border-color-mapas);
+}
+
+.slide.creamGG {
+    background-color: var(--for-slides-ALT6-1);
+    font-weight: normal !important;
+    color: var(--border-color-mapas);
+}
+
+
+
+.slide.creamR {
+    background-color: var(--for-slides-ALT7-red);
+    font-weight: normal !important;
+    color: var(--border-color-mapas);
+}
+
+.slide.creamSea {
+    background-color: var(--for-slides-ALT8-sea);
+    font-weight: normal !important;
+    color: var(--border-color-mapas);
+}
+
+.slide.creamBlack {
+    background-color: black;
+    font-weight: normal !important;
+    color: var(--border-color-mapas);
+}
+
+
+
+.slide.cream {
+        background-color: var(--background-color-for-slides);
+        font-weight: normal !important;
+        color: var(--border-color-mapas);
+    
+    
+}
+
+
+.slide.smaller li, slide.smaller p {
+    background-color: white;
+    padding: 0px !important;;
+    padding-left: 50px !important;
+
+    margin: 10px !important;
+    color: var(--border-color-mapas);
+    border: 2px solid var(--border-color-mapas);
+}
+
+.slide.evensmaller li, slide.evensmaller p {
+    background-color: white;
+    padding: 0px !important;;
+    padding-left: 50px !important;
+font-size: 70%;
+    margin: 10px !important;
+    color: var(--border-color-mapas);
+    border: 2px solid var(--border-color-mapas);
+}
+
+.slide.smallest li, slide.smallest p {
+    background-color: white;
+    padding: 0px !important;;
+    padding-left: 50px !important;
+font-size: 40%;
+    margin: 10px !important;
+    color: var(--border-color-mapas);
+    border: 1px solid var(--border-color-mapas);
+}
+
+.slide.cream span span, .slide.creamB span span,
+.slide.creamG span span,.slide.creamGG span span,.slide.creamR span span, 
+.slide.creamSea span span, 
+.slide.creamGGGragient span span,
+.slide.conicG span span,
+.slide.conicG2 span span,
+.slide.creamPPPGragient span span,
+.slide.greenmemory span span,
+.slide.black span span,
+.slide.dosblue span span,
+.slide.creamGGGragientReverse span span,
+.slide.creamP span span, .slide.creamPP span span , .slide.creamPPP span span, .slide.creamBlack span span {
+
+    background-color: #FBFBFB;
+    padding: 5px;
+    color: var(--border-color-mapas);
+}
+
+.slide.grey span span {
+    background-color:  #FBFBFB;
+}
+
+.slide.creamGrey span span {
+    background-color:  #FBFBFB;
+    padding: 5px;
+}
+
+
+
+.slide.creamGrey.bbb span span {
+    background-color: #8dc2e6;; 
+    padding: 5px;
+    color: white;
+}
+
+.slide.creamGrey.ggg span span {
+    background-color: #8de6b0;;; 
+    padding: 5px;
+    color: black;
+}
+
+.slide.creamGrey.ppp span span {
+    background-color: #9f8de6;;;; 
+    padding: 5px;
+    color: white;
+}
+
+.slide.creamGrey.ooo span span {
+    background-color: #cee68d;;;
+    padding: 5px;
+    color: black;
+}
+
+.slide.creamGrey.lll span span {
+    background-color: #e6ce8d;;;
+    padding: 5px;
+    color: black;
+}
+
+.slide.creamGrey.kkk span span {
+    background-color: #8de3e6;;;
+    padding: 5px;
+    color: black;
+}
+
+
+
+
+.slide.creamGrey span span a{
+    color: #2096BE;
+  
+}
+
+.backgroundgrey {
+    background: #545454 !important;
+}
+
+.slide.green {
+    background-color:#A5E88D ;
+    font-weight: normal !important;
+    color: black;
+}
+
+.slide.purple {
+    background-color:#C792EA ;
+    font-weight: normal !important;
+    color: white;
+}
+
+.slide.red {
+    background-color:#F07178 ;
+    font-weight: normal !important;
+    color: white;
+}
+
+
+
+
+
+
+
+.slide.orange {
+    background-color:#FF6525 ;
+    font-weight: normal !important;
+    color: white;
+}
+.slide.purple {
+    background-color:#800080;
+    font-weight: normal !important;
+    color: white;
+}
+
+
+
+
+.slide h2.shout {
+    color: white;
+
+}
+
+code[class*="language-"], pre[class*="language-"] {
+    color: white;
+
+}
+
+/* Hide top badge on each slide */
+.slide:after {
+    display: none;
+}
+
+/* -------------------------------------------------------------------------- */
+.slide ol>li::before {
+    color: var(--border-color-mapas)
+}
+.slide.memory ol>li::before {
+    color:yellow;
+}
+
+
+.slide  h2 {
+    color: var(--border-color-mapas) !important;
+    font-weight: normal;
+    background-color:white ;
+    padding: 20px;
+    border:5px solid  var(--border-color-mapas);
+
+}
+
+.slide.memory  h2 {
+    color: white !important;
+    font-weight: normal;
+    background-color: #506357 ;
+    padding: 20px;
+    border:5px solid   yellow;
+
+}
+
+.slide h2.shout {
+    color: white;
+    padding: 0px;
+    background-color: transparent;
+}
+
+
+.slide li, slide p {
+    background-color: white;
+    padding: 15px;
+    padding-left: 50px;
+    margin: 15px;
+    color: var(--border-color-mapas);
+    border:2px solid  var(--border-color-mapas);
+}
+
+.slide.small li, slide.small p {
+
+    padding: 3px;
+    padding-left: 50px;
+}
+
+.slide.memory li, slide p {
+    background-color:#506357 ;
+    padding: 15px;
+    padding-left: 50px;
+    margin: 15px;
+    color: white;
+}
+
+
+.slide h2 small {
+    color: gray;
+    font-size: smaller;
+}
+
+.slide h2 em {
+    color: #f0db4f;
+    font-style: normal;
+}
+
+.colors {
+    line-height: 150% !important;
+    font-size: 70px !important;
+}
+
+.sss {
+    border-color: rgb(139, 28, 28);
+    border-style: solid;
+    border-width: 20px 20px 20px 20px;
+}
+
+.green {
+    background-color: rgb(39, 175, 39) !important;
+    color:white !important;
+    padding: 5px;
+}
+
+.red {
+    background-color: red;
+    color:white;
+    padding: 5px;
+}
+
+
+.yellow {
+    background-color:  #FF6525 !important;
+    color:white !important;
+    padding: 5px;
+}
+
+.pruple {
+    background-color:purple;
+    color:white;
+    padding: 5px;
+}
+.blue {
+    background-color:#2096BE !important;
+    color:white !important;
+    padding: 5px;
+}
+
+.blue2 {
+    background-color:rgb(0, 153, 255) !important;;
+    color:white !important;;
+    padding: 5px;
+}
+
+.blue3 {
+    background-color:rgb(0, 225, 255);
+    color:white;
+    padding: 5px;
+}
+
+/* -------------------------------------------------------------------------- */
+
+.slide kbd,
+.slide samp,
+.slide pre mark {
+    background-color: #f0db4f;
+}
+
+.slide b,
+.slide strong {
+    color:  #606aff;
+}
+
+.slide a {
+    color: #2380e6;
+}
+
+.slide pre mark.important {
+    background-color: #f7302f;
+}
+
+.slide.compact {
+    padding: 50px;
+}
+
+
+.grid-container-slidepoint {
+    display: grid;
+    grid-template-columns: 0.7fr 1fr;
+    grid-template-rows: 0.4fr 0.5fr 2.6fr 0.5fr 1fr;
+    gap: 0px 0px;
+    grid-template-areas:
+      "SlidePointImage SlidePointText"
+      "SlidePointImage SlidePointText"
+      "SlidePointImage SlidePointText"
+      "SlidePointImage SlidePointText"
+      "SlidePointImage SlidePointText";
+    height: 100%;
+    width: 100%;
+
+  }
+  
+  .SlidePointImage { grid-area: SlidePointImage;   display: flex;
+    align-items: center;
+    justify-content: center; }
+
+  .SlidePointImage img {
+    width: 90%;
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+  
+  .SlidePointText { grid-area: SlidePointText; 
+    display: flex;
+    align-items: center;
+    justify-content: center;}
+
+  .grid-container-slidepoint  ul li {
+
+  }
+  .bold {
+      font-weight: bold;
+      background-color: rgb(255, 255, 62) !important;
+  }
+
+  .smallerfont {
+      font-size: 60%;;
+      line-height: 0.8px;
+      color: white;
+  }
+
+  .smallerfont3 {
+    font-size: 80% !important;
+    line-height: 120% !important;
+    color: white;
+}
+
+  .smallerfont2 {
+    font-size: 140% !important;;
+    line-height: 0.8px important;
+  }
+
+
+  .giveorange {
+      color : #F55300 !important;
+  }
+
+  .smallerfontnew {
+    font-size: 1.2em !important
+  }
+  .smallerfontnew2 {
+    font-size: 1.7em !important
+  }
+  
+  
+.orangetext span {
+    color : var(--border-color-css) !important;
+}
+
+
